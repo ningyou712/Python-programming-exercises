@@ -3,16 +3,16 @@
 # 作者：许涛洋（填你的名字）
 
 # 在这里写你的代码
-class IOString:
-    def __init__(self):
-        self.s = ""
-    def getString(self):
-        self.s = input().strip()
-    def printString(self):
-        print(self.s.upper())
-ojb = IOString()
-ojb.getString()
-ojb.printString()
+# class IOString:
+#     def __init__(self):
+#         self.s = ""
+#     def getString(self):
+#         self.s = input().strip()
+#     def printString(self):
+#         print(self.s.upper())
+# ojb = IOString()
+# ojb.getString()
+# ojb.printString()
 # 测试代码
 # if __name__ == '__main__':
 #     pass

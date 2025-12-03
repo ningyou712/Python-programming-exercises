@@ -10,12 +10,12 @@
 # print(x)
 
 # n = int(input())
-# print({i: i *i for i in range(1, n + 1)})
+# print({i: i * i for i in range(1, n + 1)})
 
-n = int(input())
-keys = range(1, n+1)
-values = [x * x for x in keys]
-print(dict(zip(keys, values)))
+# n = int(input())
+# keys = range(1, n+1)
+# values = [x * x for x in keys]
+# print(dict(zip(keys, values)))
 # 测试代码
 # if __name__ == '__main__':
 #     pass
