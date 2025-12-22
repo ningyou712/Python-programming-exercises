@@ -4,18 +4,19 @@
 
 # 在这里写你的代码
 
-# import math
-# C, H = 50, 30
-# D = input().strip().split(',')
-# result = []
-# for d in D:
-#     q = int(rand(math.sqrt(2 * C * int(d) / H)))
-#     result.append(str(q))
-# print(','.join(result))
+import math
+C, H = 50, 30
+D = input().strip().split(',')
+result = []
+for d in D:
+    q = int(round(math.sqrt(2 * C * int(d) / H)))
+    result.append(str(q))
+print(','.join(result))
 
 
 # import math
 # print(','.join(str(int(round(math.sqrt(2*50*int(d)/30)))) for d in input().split(',')))
+
 # 测试代码
 # if __name__ == '__main__':
 #     pass
