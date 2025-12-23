@@ -3,7 +3,9 @@
 # 作者：______（填你的名字）
 
 # 在这里写你的代码
-
+def printValue(x,y):
+    print(x + y)
+printValue("3","4")
 # 测试代码
 # if __name__ == '__main__':
 #     pass
