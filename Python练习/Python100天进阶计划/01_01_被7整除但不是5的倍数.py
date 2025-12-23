@@ -3,11 +3,11 @@
 # 作者：许涛洋（填你的名字）
 
 # 在这里写你的代码
-# result = []
-# for i in range(2000, 3201):
-#     if i % 7 == 0 and i % 5 != 0:
-#         result.append(str(i))
-# print(','.join(result))
+result = []
+for i in range(2000, 3201): # range生成连续的数
+    if i % 7 == 0 and i % 5 != 0:
+        result.append(str(i))
+print(','.join(result))
 # 测试代码
 # if __name__ == '__main__':
 #     pass

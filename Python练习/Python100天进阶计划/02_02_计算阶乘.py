@@ -3,12 +3,12 @@
 # 作者：许涛洋（填你的名字）
 
 # 在这里写你的代码
-# n = int(input("请输入一个正整数："))
-# result = 1
-# for i in range(1, n+1):
-#     result = result * i
-# print(result)
-#
+n = int(input("请输入一个正整数："))
+result = 1
+for i in range(1, n+1):
+    result = result * i
+print(result)
+
 # def factorial(n):
 #     if n == 0 or n ==1:
 #         return 1
